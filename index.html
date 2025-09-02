@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Práctica - Landing Page </title>
+    <!-- Bootstrap 5.3 CSS desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        href="https://cdn.iconscout.com/icon/free/png-256/free-valorando-logo-icon-svg-png-download-2724649.png"
+        type="image/png">
+</head>
+
+<body>
+    <!-- Navbar - Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Valorant Store Puerto Montt :></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#acerca">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrusel de imágenes -->
+    <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://valorantstrike.com/wp-content/uploads/Valorant-Aemondir-Collection-Vandal-HD.jpg"
+                    class="d-block w-100" alt="Bienvenida">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bienvenido a nuestra tienda de skins para Valorant</h5>
+                    <p>¡Ofrecemos una amplia gama de skins por rotación semanal!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://valorantstrike.com/wp-content/uploads/2021/08/Valorant-Recon-Collection-Phantom-HD.jpg"
+                    class="d-block w-100" alt="Servicios">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>¡Ofertas y Descuentos todos los días!</h5>
+                    <p>Cajas aleatorias por login semanal :D</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://valorantstrike.com/wp-content/uploads/2021/06/Valorant-Origin-Collection-Operator-HD.jpg"
+                    class="d-block w-100" alt="Contacto">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Mira esta operator, uffffff</h5>
+                    <p>"My ACEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE, VAMOSSSS"</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="container my-5">
+        <h2 class="text-center mb-4">Nuestros Servicios</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card card1 h-100">
+                    <img src="https://64.media.tumblr.com/51bb1fbed2dadf3871f7a317f5bbc0b6/162aad4e930c743a-d3/s540x810/f386bdfff50f2b12ea83e994c396f87af883e2fd.png"
+                        class="card-img-top" alt="Diseño Web">
+                    <div class="card-body">
+                        <h5 class="card-title">Venta de Skins</h5>
+                        <p class="card-text">Vendemos skins de todas las armas del juego o.O</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card2 h-100">
+                    <img src="https://cdnb.artstation.com/p/assets/images/images/049/375/225/large/benjamin-b-fadefinalportrait.jpg?1652346951"
+                        class="card-img-top" alt="Desarrollo de Apps">
+                    <div class="card-body">
+                        <h5 class="card-title">Boosteo de Cuentas</h5>
+                        <p class="card-text">¡Subimos tu cuenta a ese rango que tanto deseas!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card3 h-100">
+                    <img src="https://i.pinimg.com/736x/e1/c2/71/e1c271ef50a23b82030550c3fce7af83.jpg"
+                        class="card-img-top" alt="Marketing Digital">
+                    <div class="card-body">
+                        <h5 class="card-title">Canal de Discord</h5>
+                        <p class="card-text">¡Contamos con más de 100 miembros para que puedas buscar grupo y jugar!.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accordion - Acordeón informativo -->
+    <section id="acerca" class="container my-5 preguntas-frecuentes">
+        <h2 class="text-center mb-4">Preguntas Frecuentes</h2>
+        <div class="accordion" id="acordeonPreguntas">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ¿Cuánto tiempo toman en llegar las skins que compro?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#acordeonPreguntas">
+                    <div class="accordion-body">
+                        El tiempo de entrega es inmediato, con una demora máxima de 5 minutos en caso de intermitencias
+                        en nuestra red.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ¿Ofrecen soporte después de la entrega?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#acordeonPreguntas">
+                    <div class="accordion-body">
+                        Sí, ofrecemos política de reembolso en caso de que la skin no sea entregada correctamente o si
+                        hay algún problema con la cuenta.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ¿Es legal comprar aquí?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#acordeonPreguntas">
+                    <div class="accordion-body">
+                        Sí, trabajamos en colaboración directa con Riot Games, por lo que todas las transacciones son
+                        100% seguras y legales.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Bar - Barras de progreso -->
+    <section class="bg-light py-5">
+        <div class="container container-eventos">
+            <h2 class="text-center mb-4">¡Tiempo restante de cada evento, no te olvides de revisar diariamente!</h2>
+            <p class="text-center mb-5">Cada evento puede variar y/o ser modificado, no te olvides.</p>
+
+            <div class="mb-3">
+                <label for="barraProgresoEvento1" class="form-label">PvP x 1000vp</label>
+                <div class="progress mb-4" style="height: 25px;">
+                    <div id="barraProgresoEvento1" class="progress-bar progress-bar-striped progress-bar-animated"
+                        role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                        Quedan 19 días</div>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="barraProgresoEvento2" class="form-label">10% de descuento en servicios de EloBoost</label>
+                <div class="progress mb-4" style="height: 25px;">
+                    <div id="barraProgresoEvento2"
+                        class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                        style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Quedan 18 días
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="barraProgresoEvento3" class="form-label">Scrims con Keznit y DanteDeus - Inm3 o Radiant
+                    requerido</label>
+                <div class="progress mb-4" style="height: 25px;">
+                    <div id="barraProgresoEvento3"
+                        class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                        style="width: 42.5%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Quedan 9 días
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección con botón para activar Modal -->
+    <section id="contacto" class="container my-5 py-5 text-center">
+        <h2 class="mb-4">¿Quieres formar parte de nuestro equipo de EloBoost?</h2>
+        <p class="lead mb-4">Contáctanos hoy mismo y recibe una prueba gratuita</p>
+        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalContacto">
+            Postularse Aquí
+        </button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Actividad Práctica - Landing Page</h5>
+                    <p>¡Ofrecemos una amplia gama de servicios para tu cuenta!</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>Síguenos en redes sociales :P</p>
+                    <div>
+                        <a href="https://facebook.com" class="text-white me-2">Facebook</a>
+                        <a href="https://x.com" class="text-white me-2">Twitter</a>
+                        <a href="https://instagram.com/v.rodrigo.a" class="text-white">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center mb-0">&copy; 2025 Actividad Práctica - Landing Page. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Modal - Ventana emergente de contacto -->
+    <div class="modal fade" id="modalContacto" tabindex="-1" aria-labelledby="modalContactoLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalContactoLabel">Formulario de Contacto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre in-game más tag</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Teléfono</label>
+                            <input type="tel" class="form-control" id="telefono">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Cuentanos acerca de ti</label>
+                            <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" id="btnEnviarFormulario">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast - Notificación emergente -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="toastBienvenida" class="toast" role="alert" aria-live="assertive" aria-atomic="true"
+            data-bs-delay="3000">
+            <div class="toast-header">
+                <strong class="me-auto">Bienvenido</strong>
+                <small>Ahora</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                ¡Gracias por visitar nuestra tienda! Esperamos que encuentres lo que buscas :D.
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5.3 JS desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Acá inicializamos los componentes de Bootstrap y mostramos el toast al cargar la página
+        document.addEventListener('DOMContentLoaded', function () {
+            // Mostrar toast de bienvenida
+            var toastEl = document.getElementById('toastBienvenida');
+            var toast = new bootstrap.Toast(toastEl);
+            toast.show();
+
+            // Agregar evento al botón de enviar formulario
+            document.getElementById('btnEnviarFormulario').addEventListener('click', function () {
+                alert('¡Formulario enviado con éxito! Nos pondremos en contacto contigo pronto.');
+                // Cerrar el modal después de enviar
+                var modal = bootstrap.Modal.getInstance(document.getElementById('modalContacto'));
+                modal.hide();
+            });
+        });
+    </script>
+</body>
+
+</html>
